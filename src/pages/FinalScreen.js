@@ -17,7 +17,7 @@ const FinalScreen = () => {
   };
 
   return (
-    <Box mt={30}>
+    <Box mt={30} style={{ backgroundColor: 'white', padding: '15px', borderRadius: '3%' }}>
       <Typography variant="h3" fontWeight="bold" mb={3}>
         Final Score {score}
       </Typography>

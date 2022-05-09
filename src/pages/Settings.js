@@ -41,14 +41,15 @@ const Settings = () => {
     history.push("/questions");
   };
 
+
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} style={{backgroundColor:'white', padding:'15px', borderRadius:'3%'}}>
       <SelectField options={response.trivia_categories} label="Category" />
       <SelectField options={difficultyOptions} label="Difficulty" />
       <SelectField options={typeOptions} label="Type" />
       <TextFieldComp />
-      <Box mt={3} width="100%">
-        <Button fullWidth variant="contained" type="submit">
+      <Box mt={5} width="100%">
+        <Button fullWidth variant="outlined" type="submit" mb={5}>
           Get Started
         </Button>
       </Box>

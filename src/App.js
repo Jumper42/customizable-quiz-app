@@ -12,7 +12,7 @@ function App() {
         <Box textAlign="center" mt={5}>
           <Switch>
             <Route path="/" exact>
-              <Typography variant="h2" fontWeight="light">
+              <Typography variant="h2" fontWeight="bold" color="white" mb={5}>
                 Quiz App
               </Typography>
               <Settings />

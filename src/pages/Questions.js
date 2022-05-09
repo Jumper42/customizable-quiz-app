@@ -73,8 +73,8 @@ const Questions = () => {
   };
 
   return (
-    <Box>
-      <Typography variant="h4">Questions {questionIndex + 1}</Typography>
+    <Box style={{backgroundColor:'white', padding:'15px', borderRadius:'3%'}}>
+      <Typography variant="h4">Question {questionIndex + 1}</Typography>
       <Typography mt={5}> 
         {decode(response.results[questionIndex].question)}
       </Typography>
