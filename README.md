@@ -1,4 +1,4 @@
-Customizable Quiz Builder App
+Customizable Quiz App
 
 ![Project Preview](./src/preview/settings-page.png)
 ![Project Preview](./src/preview/category.png)
